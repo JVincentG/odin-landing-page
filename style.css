@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.top, .upper-body, .middle-body,
+.lower-body, .footer{
+    display: flex;
+    width: 100%;
+}
+
+.links {
+    justify-content: end;
+}
+
+.top {
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    color: white
+}
+.left {
+    font-size: 24px;
+}
+
+.right {
+    gap: 16px;
+}
+
+.header {
+    color: white;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    
+}
+
+.footer{
+    justify-content: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
