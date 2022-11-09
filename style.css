@@ -3,7 +3,7 @@ body {
 }
 
 .top, .upper-body, .middle-body,
-.lower-body, .footer{
+.lower-body, footer{
     display: flex;
     width: 100%;
 }
@@ -31,16 +31,16 @@ body {
     gap: 16px;
 }
 
-.header {
+header {
     color: white;
 }
 
-.header, .footer {
+header, footer {
     background-color: #1F2937;
     
 }
 
-.footer{
+footer{
     justify-content: center;
     color: white;
 }
