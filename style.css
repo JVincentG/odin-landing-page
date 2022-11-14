@@ -73,21 +73,94 @@ body .title-top .right img{
     margin-right: 40px;
 }
 .upper-body h2 {
-    margin: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     font-weight: 700;
+    
 }
-.upper-body .card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.upper-body .card-image {
+    width: 100%;
+    flex-wrap: auto;
 }
 
-.upper-body .card a {
+.card-container{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.card-container .card-image{
+    margin: 10px;
+    
+}
+
+.card-container .card-image {
     padding: 20px;
     border: 3px solid blue;
     border-radius: 8px;
+    width: 6rem;
+}
+
+.card-container .card-text {
+    width: 80%;
+}
+
+.middle-body{
+    background-color: lightgray;
+    padding: 5rem;
+}
+
+.middle-body .inspiration {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.middle-body .author p{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    
+
+}
+
+.lower-body{
+    padding: 4rem;
+}
+
+.lower-body .lbCard{
+    padding: 2rem;
+    background-color:#3882F6;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lbText{
+    width: 40rem;
+}
+
+
+.lbCard .action {
+    font-weight: 800;
+}
+
+.lbButton {
+    
+    align-items:flex-end;
+}
+
+.lbCard .lbButton button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    width: 80px;
+    margin-right: 20px;
+    
 }
 
 footer{
